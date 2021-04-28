@@ -12,6 +12,6 @@ export default class InfoCard extends Component {
                 <FontAwesomeIcon icon={faInfoCircle} />
                 <span className="InfoCard__contents">{this.props.children}</span>
             </div>
-        )
+        );
     }
 }

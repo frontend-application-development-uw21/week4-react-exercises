@@ -15,12 +15,12 @@ export default class Orchid extends Component {
         return (
             <img
                 style={{
-                    border: `5px solid ${borderColor}`,
+                    border: `5px solid ${borderColor || ''}`,
                     width: '500px'
                 }}
                 src={orchidImageUrl}
                 alt="An orchid"
             />
-        )
+        );
     }
 }

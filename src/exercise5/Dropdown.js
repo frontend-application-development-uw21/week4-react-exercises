@@ -11,13 +11,13 @@ export default class Dropdown extends React.Component {
         super(props);
         this.state = {
             isOpen: false
-        }
+        };
     }
 
     toggleDropdown = () => {
         this.setState({
             isOpen: !this.state.isOpen
-        })
+        });
     }
 
     render() {
